@@ -1,0 +1,67 @@
+{
+  "company": {
+    "name": "Shatakshi Freight Solutions",
+    "phone": "+91 9711837711",
+    "email": "shatakshifreights@gmail.com",
+    "location": "Delhi NCR, India"
+  },
+  "stats": {
+    "shipments": 500,
+    "yearsExperience": 15,
+    "happyClients": 50
+  },
+  "services": [
+    {
+      "name": "FTL Services",
+      "description": "Full Truckload transportation for your goods with dedicated vehicles and professional drivers.",
+      "icon": "fas fa-cube"
+    },
+    {
+      "name": "ODC (Oversized)",
+      "description": "Specialized handling of oversized and dimensional cargo with expert logistics planning.",
+      "icon": "fas fa-dolly"
+    },
+    {
+      "name": "Commercial Moves",
+      "description": "Complete commercial relocation solutions for offices, warehouses, and industrial facilities.",
+      "icon": "fas fa-home"
+    }
+  ],
+  "features": [
+    {
+      "icon": "fas fa-check",
+      "title": "On-Time Delivery",
+      "description": "We prioritize punctuality and ensure your shipments arrive on schedule."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "Safety Guaranteed",
+      "description": "Advanced tracking and secure handling ensures complete protection of your goods."
+    },
+    {
+      "icon": "fas fa-headset",
+      "title": "24/7 Support",
+      "description": "Round-the-clock customer support for all your inquiries and concerns."
+    },
+    {
+      "icon": "fas fa-dollar-sign",
+      "title": "Competitive Pricing",
+      "description": "Best rates in the market without compromising on service quality."
+    },
+    {
+      "icon": "fas fa-map-marked-alt",
+      "title": "Pan-India Network",
+      "description": "Extensive reach across India with reliable partner networks."
+    },
+    {
+      "icon": "fas fa-cog",
+      "title": "Custom Solutions",
+      "description": "Tailored logistics solutions for your specific business needs."
+    }
+  ],
+  "seo": {
+    "title": "Shatakshi Freight Solutions - FTL & ODC Services",
+    "description": "Reliable freight transportation and commercial moving services across India. FTL, ODC, and commercial relocation solutions.",
+    "keywords": "freight, logistics, FTL, ODC, commercial moving, transportation"
+  }
+}
