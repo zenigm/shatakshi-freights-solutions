@@ -37,7 +37,7 @@
         <div class="container-lg">
             <div class="hero-content">
                 <h1>Shatakshi Freight Solutions</h1>
-                <p>Full & Part Load, FTL and ODC Logistics Across India Since 2010</p>
+                <p>Full &amp; Part Load, FTL and ODC Logistics Across India Since 2010</p>
                 <button class="btn-primary-custom" id="quoteBtn">Get Quote Now</button>
                 <button class="btn-outline-custom" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
                     Learn More
@@ -94,7 +94,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card">
                         <div class="service-icon"><i class="fas fa-truck-moving"></i></div>
-                        <h3>Part Load & Distribution</h3>
+                        <h3>Part Load &amp; Distribution</h3>
                         <p>Part‑load movements and distribution with regular services to major industrial and commercial hubs.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         road transport and is geared to meet every expectation through customer satisfaction and delight.
                     </p>
                     <div class="about-highlight">
-                        <strong>✓ Professional & Experienced</strong>
+                        <strong>✓ Professional &amp; Experienced</strong>
                         <p>
                             Over a decade of experience handling industrial, commercial and project cargo with dedicated
                             drivers and operational staff.
@@ -222,18 +222,29 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <h4>Head Office</h4>
                     <p id="locationText">
-                        A‑147, Ground Floor, Krishna Hitech, Vrindavan Garden, Near Khajuri Park, Sahibabad, Ghaziabad, U.P.
+                            Flat No. UG‑3, Plot No. F‑17, Keshav Kunj Colony, Sadarpur Road, Govindpuram, Ghaziabad – 201013.
                     </p>
                 </div>
             </div>
 
             <div class="row mt-4">
                 <div class="col-lg-8 offset-lg-2">
-                    <form class="contact-form" id="contactForm">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                        <input type="email" id="email" placeholder="Your Email" required>
-                        <input type="text" id="subject" placeholder="Subject">
-                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <!-- CONTACT FORM THAT SENDS EMAIL -->
+                    <form class="contact-form" id="contactForm"
+                          action="https://formsubmit.co/shatakshifreightsolutions@gmail.com"
+                          method="POST">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                        <!-- FormSubmit options -->
+                        <input type="hidden" name="_subject"
+                               value="New enquiry from Shatakshi Freight Solutions website">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next"
+                               value="https://zenigm.github.io/shatakshi-freights-solutions/">
+
                         <button type="submit" class="btn-primary-custom w-100">Send Message</button>
                     </form>
                 </div>
