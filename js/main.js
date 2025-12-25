@@ -154,28 +154,19 @@ function updatePageWithDefaults() {
 }
 
 // ==========================================
-// FORM HANDLING
+// FORM HANDLING  (updated for FormSubmit)
 // ==========================================
 
 function setupFormHandling() {
     const contactForm = document.getElementById('contactForm');
     const quoteBtn = document.getElementById('quoteBtn');
     
+    // Let the browser actually submit the form to FormSubmit
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            
-            if (name && email && message) {
-                console.log('📤 Form submitted:', { name, email, message });
-                alert('Thank you for your message! We will contact you soon.');
-                contactForm.reset();
-            } else {
-                alert('Please fill in all required fields');
-            }
+        contactForm.addEventListener('submit', function () {
+            console.log('📤 Form submitted, letting FormSubmit send the email.');
+            // IMPORTANT: do NOT call e.preventDefault() here
+            // FormSubmit will handle redirect and email delivery.
         });
     }
     
